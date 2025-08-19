@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import sqa.main.*;
 
-// ใช้ Stub (ขั้นตอนแรก)
 import sqa.test.stub.*;
 
 class CookingConversionCalculatorTopDownTest {
@@ -50,7 +49,6 @@ class CookingConversionCalculatorTopDownTest {
         assertEquals(300.0, result, 0.001); // Expected from Stub
     }
 
-    // ขั้นตอนต่อมา → ใช้ module จริง (ไม่ใช้ Stub แล้ว)
 
     @Test
     void testTemperatureIntegration() {
